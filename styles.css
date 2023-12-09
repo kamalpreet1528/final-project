@@ -1,0 +1,123 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Utilty Classes*/
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.main_section {
+	background: url(background.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.welcome_screen {
+	background: url(textbackground.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-image: -moz-radial-gradient(100);
+	color:rgb(245, 245, 248);
+	position: absolute;
+	font-weight: 1000;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.nav_bar{
+	size: 3rem;
+	border-radius: 2rem;
+}
+
+.navigation{
+	size: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(212, 194, 194);
+    position: sticky;
+	margin: 1rem;
+}
+
+.navigation a{
+	font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.welcome_screen h1 {
+	font-size: 4rem;
+	text-align: center;
+}
+
+.welcome_screen p {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.welcome_screen span {
+	margin-left: 5rem;
+	font-size: 2rem;
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
+.form_location {
+	text-align: center;
+}
+
+.form_location .post_location {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: .6rem;
+	border:none;
+	outline:none;
+}
+
+.form_location button {
+	width: 40%;
+	text-align: center;
+	background-color: #0016ba;
+	color: white;
+	padding: .6rem;
+	margin:1rem auto 0rem;
+	border: none;
+	border-radius: .3rem;
+}
+
+.images {
+	width: 90%;
+	margin-top: .3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mesuemimages {
+	float: left;
+	width: 32%;
+	margin-left: .5rem;
+}
+
+.mesuemimages:first-of-type {
+	margin-left: 0;
+}
+
+.img-responsive{
+	height: 20rem;
+	border-image: none;
+	border-radius: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+	.mesuemimages { 
+		width: 100%;
+		float: none;
+	}
+}
